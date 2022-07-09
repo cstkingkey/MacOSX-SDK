@@ -1,4 +1,4 @@
-name: iPhoneOS-SDK
+name: 10.15 SDK
 
 on:
   push:
