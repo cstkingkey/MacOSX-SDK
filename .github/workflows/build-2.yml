@@ -13,6 +13,7 @@ jobs:
           wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/build-2.sh
           wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/macos-11.txt
           bash build-2.sh
+          ls -lha xcode
           
       - name: Upload release
         uses: svenstaro/upload-release-action@2.2.1
