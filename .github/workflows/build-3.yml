@@ -16,7 +16,7 @@ jobs:
           mkdir -p xcode
           wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/build-3.sh
           wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/macos-12.txt
-          bash build.sh
+          bash build-3.sh
           
       - name: Upload release
         uses: svenstaro/upload-release-action@2.2.1
