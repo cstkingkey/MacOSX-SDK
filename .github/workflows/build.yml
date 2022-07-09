@@ -15,6 +15,9 @@ jobs:
       - run: |
           mkdir -p xcode
           wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/build.sh
+          wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/macos-12.txt
+          wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/macos-11.txt
+          wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/macos-10.15.txt
           bash build.sh
           
       - name: Upload release
