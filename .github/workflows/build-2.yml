@@ -14,7 +14,7 @@ jobs:
     steps:
       - run: |
           mkdir -p xcode
-          wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/build.sh
+          wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/build-2.sh
           wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/macos-11.txt
           bash build.sh
           
