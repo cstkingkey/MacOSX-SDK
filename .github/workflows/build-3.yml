@@ -10,8 +10,8 @@ jobs:
     steps:
       - run: |
           mkdir -p xcode
-          wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/build-3.sh
-          wget https://github.com/growtopiajaw/MacOSX-SDK/raw/main/macos-12.txt
+          wget https://github.com/cstkingkey/MacOSX-SDK/raw/main/build-3.sh
+          wget https://github.com/cstkignkey/MacOSX-SDK/raw/main/macos-12.txt
           bash build-3.sh
           
       - name: Upload release
