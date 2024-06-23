@@ -7,6 +7,6 @@ for i in $(cat ${config}); do
     rm -rf MacOSX14.sdk
     rm -rf MacOSX15.sdk
     for j in "$(ls | grep MacOSX | grep -v MacOSX.sdk)"; do
-        sudo tar -cJvhf /Users/runner/work/MacOSX-SDK/MacOSX-SDK/xcode/"$j".tar.xz "$j"
+        sudo tar -cJhf /Users/runner/work/MacOSX-SDK/MacOSX-SDK/xcode/"$j".tar.xz "$j"
     done
 done
