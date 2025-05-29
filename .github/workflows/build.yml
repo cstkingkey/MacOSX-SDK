@@ -17,7 +17,9 @@ jobs:
           - os: macos-13
             config: macos-13.txt 
           - os: macos-14
-            config: macos-14.txt 
+            config: macos-14.txt
+          - os: macos-15
+            config: macos-15.txt
 
     runs-on: ${{ matrix.os }}
 
