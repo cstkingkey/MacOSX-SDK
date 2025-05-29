@@ -10,10 +10,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: macos-11
-            config: macos-11.txt 
-          - os: macos-12
-            config: macos-12.txt 
           - os: macos-13
             config: macos-13.txt 
           - os: macos-14
